@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#8F3A84" Padding="24" CornerRadius="0">
+            <Label Text="Github + Contador " HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button Text="Click Me" 
+        Clicked="Button_Clicked" 
+        TextColor="Blue"
+        BackgroundColor="#3A418FFF"
+        BorderColor="Red"
+        BorderWidth="5"
+        CornerRadius="5"
+        WidthRequest="150"
+        HeightRequest="75" x:Name="Cuenta"/>
+        <Button Text="Reset"
+        Clicked="Reset_Clicked"
+        TextColor="Blue"
+        BackgroundColor="#3A418FFF"
+        BorderColor="Red"
+        BorderWidth="5"
+        CornerRadius="5"
+        WidthRequest="150"
+        HeightRequest="75" x:Name="Resetea"/>
+        <Image Source="https://media.vlpt.us/images/kyungjin/post/fdd5cc22-dfdc-4091-a2fb-039ce36ce9d8/%ED%8B%B0%EB%AA%A8.png"
+               HeightRequest="300" />
+    </StackLayout>
+
+</ContentPage>
